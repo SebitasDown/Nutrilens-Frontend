@@ -1,6 +1,18 @@
-# NutrilensFrontend
+# NutriLens Frontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+
+## Estructura del proyecto (Clean Code)
+
+El código está organizado por carpetas para mantener un estilo **clean code**. En **[docs/ESTRUCTURA_PROYECTO.md](docs/ESTRUCTURA_PROYECTO.md)** se explica **qué debe ir en cada carpeta**:
+
+- **`core/`** — Servicios singleton, guards, interceptors y constantes.
+- **`shared/`** — Componentes, pipes, directivas y utilidades reutilizables.
+- **`features/`** — Una carpeta por funcionalidad (auth, dashboard, etc.) con sus rutas.
+- **`layouts/`** — Estructuras de página (header, sidebar, auth layout).
+- **`models/`** — Interfaces, tipos y DTOs.
+
+Consulta ese documento antes de añadir archivos nuevos para mantener el orden del proyecto.
 
 ## Development server
 
@@ -57,3 +69,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Nutrilens-Frontend
